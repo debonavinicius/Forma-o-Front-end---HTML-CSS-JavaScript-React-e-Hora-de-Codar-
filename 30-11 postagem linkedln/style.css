@@ -1,0 +1,119 @@
+/* Bg image */
+.bg-image {
+    background-image: url("goku");
+}
+
+/* static */
+
+.static {
+    position: static;
+    background-color: grey;
+    color: black;
+    width: 100px;
+    height: 100px;
+}
+
+/* Relative */
+
+.relative {
+    position: relative;
+    background-color: grey;
+    color: black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    top: 100px;
+    left: 40px;
+}
+
+/* absolute */
+
+.absolute {
+    position: absolute;
+    background-color: grey;
+    color: black;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    top: 350px;
+    left: 200px;
+}
+
+/* Relative e absolute para não utilizar a tela toda*/
+
+.relative-container {
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+    margin-top: 200px;
+    position: relative;
+
+}
+
+.absolute-1,
+.absolute-2 {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    position: absolute;
+}
+
+.absolute-1 {
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2 {
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Fixed */
+
+.fixed {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(66, 18, 179);
+    position: fixed;
+    top: 5px;
+    right: 3px;
+}
+
+.sticky {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(0, 255, 34);
+    background-color: antiquewhite;
+    position: sticky;
+    top: 10px;
+
+}
+
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+    width: 50px;
+    height: 50px;
+    background-color: #123;
+    position: absolute;
+}
+
+.absolute-3 {
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.absolute-4 {
+    top: 10px;
+    left: 10px;
+    background-color: #454;
+    z-index: 3;
+}
+
+.absolute-5 {
+    top: 20px;
+    left: 20px;
+    background-color: #828;
+    z-index: 2;
+}
